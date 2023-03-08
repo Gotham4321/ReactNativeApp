@@ -10,7 +10,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {getBreedApi} from '../../service';
 
 export const Login = () => {
-  const [state, setState] = useState('bala');
+  const [state, setState] = useState('gowtham');
   const dispatch = useDispatch();
 
   const sendData = () => {
